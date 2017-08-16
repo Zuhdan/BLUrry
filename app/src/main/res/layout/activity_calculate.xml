@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="com.example.captain_n3mo.blurry.Calculate">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@color/colorCalculate"
+        android:layout_width="match_parent"
+        android:text="@string/calculate"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/settling_pond"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        
+        <Spinner
+            android:layout_marginLeft="13dp"
+            android:id="@+id/settling_pond_array"
+            android:layout_marginRight="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/intake"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_marginLeft="13dp"
+            android:id="@+id/intake_array"
+            android:layout_marginRight="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+    </LinearLayout>
+
+</LinearLayout>

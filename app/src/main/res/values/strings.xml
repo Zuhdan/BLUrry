@@ -4,4 +4,20 @@
     <string name="volume_in">Volume In</string>
     <string name="volume_out">Volume Out</string>
     <string name="calculate">Calculate</string>
+    <string name="title_activity_volume_in_input_data">VolumeInInputData</string>
+    <string name="title_activity_volume_in_master_data">VolumeInMasterData</string>
+    <string name="title_activity_volume_in_master_data_with_graph">VolumeInMasterDataWithGraph
+    </string>
+    <string name="settling_pond">Settling Pond :</string>
+    <string name="intake">Intake :</string>
+    <string-array name="settling_pond_array">
+        <item>SP 1</item>
+        <item>SP 2b</item>
+        <item>SP 3b</item>
+        <item>SP 4</item>
+        <item>SP 5</item>
+        <item>SP 6</item>
+        <item>SP 6</item>
+        <item>SP 7</item>
+    </string-array>
 </resources>

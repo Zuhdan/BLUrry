@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.captain_n3mo.blurry">
 
     <application
@@ -16,12 +17,66 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".VolumeIn" />
-        <activity android:name=".VolumeOut" />
-        <activity android:name=".VolumeOutMasterData" />
-        <activity android:name=".VolumeOutInputData" />
-        <activity android:name=".VolumeOutInputDataWithGraph" />
-        <activity android:name=".Calculate"></activity>
+        <activity
+            android:name=".VolumeIn"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".VolumeOut"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".VolumeOutMasterData"
+            android:parentActivityName=".VolumeOut"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".VolumeOutMasterDataWithGraph" />
+        <activity
+            android:name=".Calculate"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".VolumeInInputData"
+            android:label="@string/title_activity_volume_in_input_data"
+            android:parentActivityName=".VolumeIn"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.captain_n3mo.blurry.VolumeIn" />
+        </activity>
+        <activity
+            android:name=".VolumeInMasterData"
+            android:label="@string/title_activity_volume_in_master_data"
+            android:parentActivityName=".VolumeIn"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.captain_n3mo.blurry.VolumeIn" />
+        </activity>
+        <activity
+            android:name=".VolumeInMasterDataWithGraph"
+            android:label="@string/title_activity_volume_in_master_data_with_graph"
+            android:parentActivityName=".VolumeInMasterData"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.captain_n3mo.blurry.VolumeInMasterData" />
+        </activity>
     </application>
 
 </manifest>
