@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backroundMaster">#40444c</color>
+    <color name="colorVolumeIn">#47e862</color>
+    <color name="colorVolumeOut">#d9e52d</color>
+    <color name="colorCalculate">#2bdbb5</color>
+</resources>

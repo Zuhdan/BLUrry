@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLUrry</string>
+    <string name="intro">Ini merupakan konsep laporan slurry handling secara realtime. app ini berfungsi agar : \n <b>1.</b> Mengetahui lumpur yang masuk berdasarkan laporan tss treatment. input by admin Maintenance setiap minggu \n <b>2.</b> Mengetahui jumlah lumpur yang dipompa keluar dengan konsep : \n <i>a. konvensional (tanpa flowmeter) \n b. dengan flowmeter. </i> \n <b>3.</b> hasil realtime pengukuran.</string>
+    <string name="volume_in">Volume In</string>
+    <string name="volume_out">Volume Out</string>
+    <string name="calculate">Calculate</string>
+</resources>
