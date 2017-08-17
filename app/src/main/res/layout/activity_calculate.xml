@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/backroundMaster"
     android:layout_height="match_parent"
     tools:context="com.example.captain_n3mo.blurry.Calculate">
 
@@ -15,16 +16,21 @@
         android:textColor="#FFFFFF"
         android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:layout_marginTop="23dp"
-        android:layout_marginLeft="13dp"
+    <Space
         android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
             android:text="@string/settling_pond"
+            android:textColor="@color/colorTextCalculate"
             android:textStyle="bold"
             android:layout_height="wrap_content" />
         
@@ -39,9 +45,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="13dp"
-        android:layout_marginLeft="13dp"
         android:layout_width="match_parent"
+        android:layout_margin="10dp"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
 
@@ -49,6 +54,7 @@
             android:layout_width="wrap_content"
             android:textStyle="bold"
             android:text="@string/intake"
+            android:textColor="@color/colorTextCalculate"
             android:layout_height="wrap_content" />
 
         <Spinner
@@ -58,7 +64,125 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </Spinner>
-
     </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:columnCount="7"
+        android:rowCount="12"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/percenageLeft"
+            android:text="@string/sampleTextPercentageLeft"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="top|left"/>
+
+        <TextView
+            android:id="@+id/percenageRight"
+            android:layout_column="6"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/sampleTextPercentageRight"
+            android:layout_row="0"
+            android:layout_gravity="top|right"/>
+
+        <TextView
+            android:id="@+id/intake"
+            android:layout_column="3"
+            android:text="@string/sampleTextIntake"
+            android:layout_row="0"
+            android:layout_columnSpan="3"
+            android:layout_rowSpan="3"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp1"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextMp1"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp2"
+            android:layout_column="4"
+            android:layout_columnSpan="3"
+            android:layout_row="4"
+            android:gravity="center"
+            android:background="@color/white"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp3"
+            android:gravity="center"
+            android:layout_column="0"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:layout_row="6"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp4"
+            android:layout_column="4"
+            android:gravity="center"
+            android:layout_row="6"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp5"
+            android:layout_column="0"
+            android:gravity="center"
+            android:layout_row="8"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp6"
+            android:layout_column="4"
+            android:gravity="center"
+            android:layout_row="8"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp7"
+            android:layout_column="0"
+            android:gravity="center"
+            android:layout_row="10"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/mp8"
+            android:layout_column="4"
+            android:gravity="center"
+            android:layout_row="10"
+            android:background="@color/white"
+            android:layout_columnSpan="3"
+            android:text="@string/sampleTextVolume"
+            android:layout_gravity="top|center_horizontal"/>
+
+    </GridLayout>
 
 </LinearLayout>

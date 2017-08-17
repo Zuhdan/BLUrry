@@ -10,6 +10,11 @@
     </string>
     <string name="settling_pond">Settling Pond :</string>
     <string name="intake">Intake :</string>
+    <string name="sampleTextPercentageLeft">40%</string>
+    <string name="sampleTextPercentageRight">60%</string>
+    <string name="sampleTextIntake">Q :...m3/jam\nTss :...mg/l</string>
+    <string name="sampleTextMp1">BB 01\nV = 4200m3</string>
+    <string name="sampleTextVolume">V = 6500 m3</string>
     <string-array name="settling_pond_array">
         <item>SP 1</item>
         <item>SP 2b</item>

@@ -7,4 +7,6 @@
     <color name="colorVolumeIn">#47e862</color>
     <color name="colorVolumeOut">#d9e52d</color>
     <color name="colorCalculate">#2bdbb5</color>
+    <color name="colorTextCalculate">#eef442</color>
+    <color name="white">#FFFFFF</color>
 </resources>
