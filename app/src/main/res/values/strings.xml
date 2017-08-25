@@ -15,6 +15,8 @@
     <string name="sampleTextIntake">Q :...m3/jam\nTss :...mg/l</string>
     <string name="sampleTextMp1">BB 01\nV = 4200m3</string>
     <string name="sampleTextVolume">V = 6500 m3</string>
+    <string name="master_data">Master Data</string>
+    <string name="input_data">Input Data</string>
     <string-array name="settling_pond_array">
         <item>SP 1</item>
         <item>SP 2b</item>
@@ -25,4 +27,6 @@
         <item>SP 6</item>
         <item>SP 7</item>
     </string-array>
+    <string name="samplePenjelasanVolume">Penjelasan Volume \n[Sample Text]</string>
+    <string name="konvensional">Konvensional</string>
 </resources>

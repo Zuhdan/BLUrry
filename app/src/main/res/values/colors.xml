@@ -9,4 +9,6 @@
     <color name="colorCalculate">#2bdbb5</color>
     <color name="colorTextCalculate">#eef442</color>
     <color name="white">#FFFFFF</color>
+    <color name="backgroundButton">#020b19</color>
+    <color name="black">#000000</color>
 </resources>
